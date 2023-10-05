@@ -1,10 +1,10 @@
 import java.util.Scanner;
-import java.util.Locale;
+
 public class ContaTerminal {
    
     public static void main(String[] args) throws Exception {
          //TODO: Conhecer e importar a classe Scanner 
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);        
+        Scanner scanner = new Scanner(System.in)       
        
         int numero = 1021;
         String nomeCliente = "Rodolfo Oliveira";
